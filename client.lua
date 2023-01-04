@@ -62,6 +62,27 @@ local Menu = config.Menu
 local CinematicHeight = 0.2
 local w = 0
 
+local checklistSounds = true
+local openMenuSounds = true
+local resetHudSounds = true
+local showOutMap = false
+local showMapNotif = true
+local showFuelAlert = true
+local showCinematicNotif = true
+local dynamicHealth = true
+local dynamicArmor = true
+local dynamicHunger = true
+local dynamicThirst = true
+local dynamicStress = true
+local dynamicOxygen = true
+local dynamicEngine = true
+local dynamicNitro = true
+local changeFPS = true
+DisplayRadar(false)
+local map = "circle"
+local hideMap = false
+local showMapBorders = true
+
 DisplayRadar(false)
 
 local function CinematicShow(bool)
